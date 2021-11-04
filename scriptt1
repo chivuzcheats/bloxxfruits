@@ -1,0 +1,168 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("BloxFruits  -  #Chivuzcheats", "Sentinel")
+
+local Home = Window:NewTab("Home")
+local Information = Home:NewSection("Discord Server - https://discord.gg/bcANaR8g")
+local Information = Home:NewSection("Script made by Kilovatzz aka Chivu!")
+local Information = Home:NewSection("Can be contacted on discord @ Chivu#4099!")
+
+local Teleport = Window:NewTab("Teleports")
+
+local TPIslands = Teleport:NewSection("Islands")
+
+TPIslands:NewButton("Windmill", "Teleports the player to the Windmill", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(1138.15, 16.5166, 1339.09)
+end)
+
+TPIslands:NewButton("Magma Village", "Teleports the player to the Magma Village", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-5175.63, 4.27313, 8419.24)
+end)
+
+TPIslands:NewButton("Marine Fortress", "Teleports the player to the Marine Fortress", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-4772.09, 4.56315, 4299.81)
+end)
+
+TPIslands:NewButton("Mob Island", "Teleports the player to the Mob Island", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-2845.96, 7.39225, 5351.98)
+end)
+
+TPIslands:NewButton("Middle Town", "Teleports the player to the Middle Town", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-1300.9, 2.65205, 1740.9)
+end)
+
+TPIslands:NewButton("Pirate Village", "Teleports the player to the Pirate Village", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-1120.4, 4.75205, 3825.11)
+end)
+
+TPIslands:NewButton("Prison", "Teleports the player to the Prison", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(4843.55, 5.65168, 732.751)
+end)
+
+TPIslands:NewButton("Sea", "Teleports the player to the Sea", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-4876.99, 3.32747, -2350.81)
+end)
+
+TPIslands:NewButton("SkyArea 1", "Teleports the player to the SkyArea1", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-4785.51, 843.287, -2048.3)
+end)
+
+TPIslands:NewButton("SkyArea 2", "Teleports the player to the SkyArea1", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-7920.56, 5545.58, -342.585)
+end)
+
+TPIslands:NewButton("Underwater", "Teleports the player to the Underwater", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(61164.5, 5.78618, 1828.84)
+end)
+
+TPIslands:NewButton("Fountain City", "Teleports the player to the Fountain City", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(5184.82, 38.5011, 4138.43)
+end)
+
+TPIslands:NewButton("Colloseum", "Teleports the player to the Colloseum", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-1437.73, 7.28772, -2784.25)
+end)
+
+TPIslands:NewButton("Desert", "Teleports the player to the Desert", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(884.858, 3.44214, 4095.9)
+end)
+
+TPIslands:NewButton("Frozen Village", "Teleports the player to the Frozen Village", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(1095.67, 5.29066, -1134.38)
+end)
+
+TPIslands:NewButton("Jungle", "Teleports the player to the Jungle", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-1314.56, 5.37315, 528.912)
+end)
+
+
+
+
+local Autofarm = Window:NewTab("Farming")
+
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("BloxFruits  -  #Chivuzcheats", "Sentinel")
+
+local Home = Window:NewTab("Home")
+local Information = Home:NewSection("Discord Server - https://discord.gg/bcANaR8g")
+local Information = Home:NewSection("Script made by Kilovatzz aka Chivu!")
+local Information = Home:NewSection("Can be contacted on discord @ Chivu#4099!")
+
+local Teleport = Window:NewTab("Teleports")
+
+local TPIslands = Teleport:NewSection("Islands")
+
+TPIslands:NewButton("Windmill", "Teleports the player to the Windmill", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(1138.15, 16.5166, 1339.09)
+end)
+
+TPIslands:NewButton("Magma Village", "Teleports the player to the Magma Village", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-5175.63, 4.27313, 8419.24)
+end)
+
+TPIslands:NewButton("Marine Fortress", "Teleports the player to the Marine Fortress", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-4772.09, 4.56315, 4299.81)
+end)
+
+TPIslands:NewButton("Mob Island", "Teleports the player to the Mob Island", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-2845.96, 7.39225, 5351.98)
+end)
+
+TPIslands:NewButton("Middle Town", "Teleports the player to the Middle Town", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-1300.9, 2.65205, 1740.9)
+end)
+
+TPIslands:NewButton("Pirate Village", "Teleports the player to the Pirate Village", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-1120.4, 4.75205, 3825.11)
+end)
+
+TPIslands:NewButton("Prison", "Teleports the player to the Prison", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(4843.55, 5.65168, 732.751)
+end)
+
+TPIslands:NewButton("Sea", "Teleports the player to the Sea", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-4876.99, 3.32747, -2350.81)
+end)
+
+TPIslands:NewButton("SkyArea 1", "Teleports the player to the SkyArea1", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-4785.51, 843.287, -2048.3)
+end)
+
+TPIslands:NewButton("SkyArea 2", "Teleports the player to the SkyArea1", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-7920.56, 5545.58, -342.585)
+end)
+
+TPIslands:NewButton("Underwater", "Teleports the player to the Underwater", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(61164.5, 5.78618, 1828.84)
+end)
+
+TPIslands:NewButton("Fountain City", "Teleports the player to the Fountain City", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(5184.82, 38.5011, 4138.43)
+end)
+
+TPIslands:NewButton("Colloseum", "Teleports the player to the Colloseum", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-1437.73, 7.28772, -2784.25)
+end)
+
+TPIslands:NewButton("Desert", "Teleports the player to the Desert", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(884.858, 3.44214, 4095.9)
+end)
+
+TPIslands:NewButton("Frozen Village", "Teleports the player to the Frozen Village", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(1095.67, 5.29066, -1134.38)
+end)
+
+TPIslands:NewButton("Jungle", "Teleports the player to the Jungle", function()
+    game:GetService("Workspace").Characters:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame = CFrame.new(-1314.56, 5.37315, 528.912)
+end)
+
+
+
+
+local Autofarm = Window:NewTab("Farming")
+
+
+
